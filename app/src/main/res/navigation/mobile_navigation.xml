@@ -21,6 +21,8 @@
         android:label="@string/home_second"
         tools:layout="@layout/fragment_home_second">
         <action
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
             android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
             app:destination="@id/nav_home" />
 
